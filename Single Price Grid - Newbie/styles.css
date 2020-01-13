@@ -1,0 +1,95 @@
+body {
+  font-family: 'Karla', sans-serif;
+  font-size: 11px;
+  text-align: center;
+  width: 1440px;
+  background-color: #E5EFF5;
+}
+
+h1 {
+  margin-top: 0;
+  color: #40A6A2;
+}
+
+h2 {
+  color: #C0DF34;
+}
+
+h3 {
+  color: #FFFFFF;
+}
+
+a {
+  color: #3E52A3;
+}
+
+p {
+  color: #FFFFFF;
+}
+
+.container {
+  margin: auto;
+  width: 35%;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "box-top box-top"
+    "box-bottom-left box-bottom-right";
+  justify-content: center;
+}
+
+.box-top {
+  background-color: #FFFFFF;
+  text-align: left;
+  padding: 20px;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+  grid-area: box-top;
+}
+
+.p-box-top {
+  font-size: 13px;
+  color: #98A6BD;
+  line-height: 2;
+}
+
+.box-bottom-left {
+  background-color: #40A6A2;
+  float: left;
+  text-align: left;
+  border-bottom-left-radius: 3%;
+  grid-area: box-bottom-left;
+  padding: 20px;
+}
+
+.box-bottom-right {
+  background-color: #45B2B0;
+  float: left;
+  text-align: left;
+  border-bottom-right-radius: 3%;
+  grid-area: box-bottom-right;
+  padding: 20px 30px 20px 20px;
+  line-height: 1.5;
+}
+
+.dollar{
+  font-size: 36px;
+}
+
+.per-month{
+  margin-left: 15px;
+  line-height: 3;
+  opacity: 50%;
+}
+
+.button {
+  background: #c0df34;
+  border-radius: 5px;
+  border: 2px solid #45b2b0;
+  padding: 10px 75px;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-top: 15px;
+}
